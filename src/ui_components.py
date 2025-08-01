@@ -8,7 +8,7 @@ from src.llm_handler import initialize_chat_llm, process_document, chunk_text
 def setup_page_config():
     """Configure Streamlit page settings"""
     st.set_page_config(
-        page_title="Document Summarizer",
+        page_title="Research Paper Summarizer",
         page_icon="📄",
         layout="wide",
         initial_sidebar_state="expanded"
